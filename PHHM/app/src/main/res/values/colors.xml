@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="colorPrimary">#008577</color>
+        <color name="colorPrimaryDark">#1C0D57</color>
+        <color name="colorAccent">#D81B60</color>
+        <color name="backgroundcolor">#fcfcfc</color>
+        <color name="materialblue">#1B5791</color>
+        <color name="materialpink">#FDD3DF</color>
+        <color name="materialGREEN">#4CAF50</color>
+        <color name="blue">#CFE8FF</color>
+        <color name="backgroundblue">#5EB0FF</color>
+        <color name="colorblue">#3377AA</color>
+        <color name="design_default_color_primay">#2C71E5</color>
+        <color name="black">#000000</color>
+    </resources>

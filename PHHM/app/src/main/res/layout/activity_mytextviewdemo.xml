@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/copy1"
+    android:padding="20dp"
+    tools:context=".Mytextviewdemo">
+
+
+
+    <EditText
+        android:id="@+id/name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="150dp"
+
+        android:background="@drawable/inputshape"
+        android:drawableStart="@drawable/ic_person_black_36dp"
+        android:hint="  Enter a name    "
+        android:inputType="text"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorPrimary" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/inputshape"
+        android:drawableStart="@drawable/ic_email_black_36dp"
+        android:hint="  Enter email     "
+        android:inputType="textEmailAddress"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorPrimary" />
+
+
+
+
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/phone_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputshape"
+        android:hint="  Enter the number   "
+        android:drawableStart="@drawable/ic_phone_black_36dp"
+        android:inputType="number"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorPrimary" />
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/username_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputshape"
+        android:drawableStart="@drawable/ic_account_circle_black_36dp"
+        android:hint="  Enter a username "
+        android:inputType="text"
+        android:paddingRight="110dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorPrimary" />
+
+
+
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputshape"
+        android:drawableStart="@drawable/ic_mode_edit_black_36dp"
+        android:hint="  Enter a password   "
+        android:inputType="textPassword"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorPrimary" />
+
+
+
+
+
+
+
+
+
+
+
+
+    <EditText
+
+        android:id="@+id/confirm_password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputshape"
+        android:drawableStart="@drawable/ic_mode_edit_black_36dp"
+        android:hint="  Confirm the password! "
+        android:inputType="textPassword"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorPrimary" />
+
+
+
+
+
+
+
+
+
+
+    <RadioGroup
+        android:id="@+id/radiogroupid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usertype"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <RadioButton
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Doctor"
+            android:textSize="20sp"
+            android:onClick="checkButton"
+
+            ></RadioButton>
+        <RadioButton
+            android:id="@+id/button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Patient"
+            android:textSize="20sp"
+            android:onClick="checkButton"
+
+            ></RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/save_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Sign up"
+        android:textAlignment="center"
+        android:background="@drawable/rounded"
+        ></Button>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/progressbarId1"
+        />
+
+
+
+
+
+
+</LinearLayout>

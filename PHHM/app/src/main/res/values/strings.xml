@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PHHM</string>
+    <string name="Open"> </string>
+    <string name="Close"> </string>
+    <string name="option1">Medicine Reminder</string>
+    <string name="option2">Blood Pressure</string>
+    <string name="option3">Blood Sugar</string>
+    <string name="option4">Diet Plan</string>
+    <string name="option5">Prescription</string>
+    <string name="option6">Advice</string>
+    <string name="user_id">User ID</string>
+
+
+    <array name="spinner">
+        <item>Peracitemol</item>
+        <item>Napa</item>
+        <item>Fexo</item>
+        <item>Antacid</item>
+        <item>Maxpro</item>
+        <item>Creon</item>
+        <item>Zimax</item>
+        <item>Filmat</item>
+    </array>
+</resources>
+

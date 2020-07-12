@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phhm">
+
+    <uses-permission android:name="android.permission.INTERNET " />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Doctorhome1"></activity>
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".doctor" />
+        <activity android:name=".patient" />
+        <activity android:name=".Myprofile" />
+        <activity android:name=".Doctorhome" />
+        <activity android:name=".Retrievedata" />
+        <activity android:name=".DietPlan" />
+        <activity android:name=".Prescription" />
+        <activity android:name=".Advice" />
+        <activity android:name=".BloodSugar" />
+        <activity android:name=".BloodPressure" />
+        <activity android:name=".MedicineReminder" />
+        <activity android:name=".Patienthome" />
+        <activity android:name=".Mytextviewdemo" />
+        <activity android:name=".Signup" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
